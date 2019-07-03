@@ -38,3 +38,6 @@ This simply allows you to pinpoint the source of the error thus allowing your to
 1. Download the `hexanerunstringdebug.lua` script.
 2. Add/upload it to your servers `garrysmod/lua/autorun` directory.
 3. Restart the server and wait for the runstring error to appear. Next to it, you'll see more information including the source of the error. 
+
+## Note
+Some DRM's included with addons (specifically with gmodstore scripts) won't work when this script is installed on your server. If you experience issues with a DRM conflicting with this script, you'll have to remove this script or temporary disable the addon with DRM. "Xeon" DRM commonly abruptly breaks with scripts like these. 
