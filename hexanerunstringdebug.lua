@@ -1,5 +1,6 @@
 -- Gmod RunString Debug
 -- https://github.com/HexaneNetworks/gmod-runstring-debug
+-- v1.0
 -- June 2019
 
 hexanerunstringdebug = hexanerunstringdebug or {}
