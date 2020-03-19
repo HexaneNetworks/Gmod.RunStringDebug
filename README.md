@@ -1,6 +1,11 @@
 # Gmod RunString Debug
 A simple Lua script to debug and print the source of RunString errors in Garry's Mod. 
 
+## Installation Instructions
+1. Download the `hexanerunstringdebug.lua` script.
+2. Add/upload it to your servers `garrysmod/lua/autorun` directory.
+3. Restart the server and wait for the runstring error to appear. Next to it, you'll see more information including the source of the error. 
+
 ## Why does this error show?
 Commonly, a run string error will display when you are using leaked/malicious addons with a backdoor script embedded. We always advise to **never** use leaked/free addons of paid versions as 9/10 contain harmful backdoors which almost always severely harm your server. Support the developers time and work by purchasing their addons, don't use leaks.   
 
@@ -34,10 +39,12 @@ stack traceback:
 
 This simply allows you to pinpoint the source of the error thus allowing your to fix/delete the addon/code :)
 
-## Installation
-1. Download the `hexanerunstringdebug.lua` script.
-2. Add/upload it to your servers `garrysmod/lua/autorun` directory.
-3. Restart the server and wait for the runstring error to appear. Next to it, you'll see more information including the source of the error. 
+## Versions
+
+### Current Version: 1.0
+
+### 1.0 (28 June 2019)
+- Initial Release
 
 ## Note
 Some DRM's included with addons (specifically with gmodstore scripts) won't work when this script is installed on your server. If you experience issues with a DRM conflicting with this script, you'll have to remove this script or temporary disable the addon with DRM. "Xeon" DRM commonly abruptly breaks with scripts like these. 
